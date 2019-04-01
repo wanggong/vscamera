@@ -162,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Buffer.cpp" />
-    <ClCompile Include="BufferProductor.cpp" />
     <ClCompile Include="BufferQueue.cpp" />
     <ClCompile Include="ConsoleCamera.cpp" />
     <ClCompile Include="ImageProcess.cpp" />

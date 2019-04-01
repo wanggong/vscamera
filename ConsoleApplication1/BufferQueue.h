@@ -3,6 +3,10 @@
 
 #include <list>
 #include <queue>
+
+class BufferConsumer;
+class BufferProductor;
+
 class BufferQueue
 {
 public:

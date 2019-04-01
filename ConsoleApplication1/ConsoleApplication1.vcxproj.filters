@@ -53,9 +53,6 @@
     <ClCompile Include="ConsoleCamera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BufferProductor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Stream.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
