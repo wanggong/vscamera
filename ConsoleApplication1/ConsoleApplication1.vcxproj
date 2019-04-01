@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5E8998B9-376A-4780-BBEE-18AABA21E84D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <RootNamespace>ConsoleCamera</RootNamespace>
     <WindowsTargetPlatformVersion />
     <ProjectName>ConsoleCamera</ProjectName>
   </PropertyGroup>
