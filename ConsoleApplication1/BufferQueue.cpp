@@ -13,6 +13,7 @@ BufferQueue::~BufferQueue()
 
 bool BufferQueue::addConsumer(BufferConsumer * consumer)
 {
+	std::lock_guard<std::mutex> lockg(lock);
 	if (std::find(consumers.begin(), consumers.end(), consumer) == consumers.end())
 	{
 		consumers.push_back(consumer);
@@ -23,6 +24,7 @@ bool BufferQueue::addConsumer(BufferConsumer * consumer)
 
 bool BufferQueue::addProductor(BufferProductor * productor)
 {
+	std::lock_guard<std::mutex> lockg(lock);
 	if (std::find(productors.begin(), productors.end(), productor) == productors.end()) 
 	{
 		productors.push_back(productor);
@@ -33,6 +35,7 @@ bool BufferQueue::addProductor(BufferProductor * productor)
 
 bool BufferQueue::removeConsumer(BufferConsumer * consumer)
 {
+	std::lock_guard<std::mutex> lockg(lock);
 	if (std::find(consumers.begin(), consumers.end(), consumer) != consumers.end())
 	{
 		consumers.remove(consumer);
@@ -43,6 +46,7 @@ bool BufferQueue::removeConsumer(BufferConsumer * consumer)
 
 bool BufferQueue::removeProductor(BufferProductor * productor)
 {
+	std::lock_guard<std::mutex> lockg(lock);
 	if (std::find(productors.begin(), productors.end(), productor) != productors.end())
 	{
 		productors.remove(productor);
@@ -69,7 +73,33 @@ bool BufferQueue::onFullBufferAvailable(Buffer * buf)
 	return true;
 }
 
+BufferConsumer::BufferConsumer()
+{
+}
+
+BufferConsumer::~BufferConsumer()
+{
+}
+
 void BufferConsumer::onFullBufferAvailable(Buffer * buf)
 {
 	bufs.push(buf);
+}
+
+BufferUseBase::BufferUseBase()
+{
+}
+
+BufferUseBase::~BufferUseBase()
+{
+}
+
+BufferProductor::BufferProductor()
+{
+}
+BufferProductor::~BufferProductor()
+{
+}
+void BufferProductor::onEmptyBufferAvailable(Buffer *buf)
+{
 }

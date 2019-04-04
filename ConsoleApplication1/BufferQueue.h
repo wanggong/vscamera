@@ -3,6 +3,7 @@
 
 #include <list>
 #include <queue>
+#include <mutex>
 
 class BufferConsumer;
 class BufferProductor;
@@ -24,6 +25,7 @@ private:
 	std::list<Buffer*> full_bufss;
 	std::list<BufferConsumer*> consumers;
 	std::list<BufferProductor*> productors;
+	std::mutex lock;
 };
 
 class BufferUseBase

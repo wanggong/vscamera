@@ -1,7 +1,7 @@
 #pragma once
 #include<list>
 
-#include "ImageProcess.h"
+class ImageProcess;
 class Stream
 {
 public:

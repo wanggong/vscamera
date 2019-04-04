@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Buffer" Collapsed="true">
+    <Position X="17" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAARQAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferQueue" Collapsed="true">
+    <Position X="19.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYQAAFAAAAEAACABAAAAAgAAEAAIAAAAAAIAAAAA=</HashCode>
+      <FileName>BufferQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferUseBase" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BufferQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferConsumer" Collapsed="true">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAgAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>BufferQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferProductor" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>BufferQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageProcess" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAUA=</HashCode>
+      <FileName>ImageProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IspProcess" Collapsed="true">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scaler" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ImageProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DewarpProcess" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ImageProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pipeline" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQACAAAAAAAAAAAAAACAAAAAAQAEQAAAIAAAAAA=</HashCode>
+      <FileName>Pipeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stream" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Stream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WritePort" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAA=</HashCode>
+      <FileName>Port.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReadPort" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Port.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
